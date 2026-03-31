@@ -1,0 +1,14 @@
+hostname Router1
+int loopback 3
+ip address 3.3.3.3 255.255.255.255
+exit
+router ospf 1
+network 0.0.0.0 0.0.0.0 area 0
+distance 60
+default-information originateThis is the First Line. 
+This is the Second Line. 
+This is the Third Line. 
+
+ This is the First Line. 
+This is the Second Line. 
+This is the Third Line. 
