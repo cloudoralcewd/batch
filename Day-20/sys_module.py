@@ -5,7 +5,7 @@
 
 import sys
 
-# help(sys.argv)
+help(sys.argv)
 
 # print python version
 print("Python version:", sys.version)
